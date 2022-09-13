@@ -1,7 +1,7 @@
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
-import Skills from "./components/skills/Skills";
+import Resume from "./components/resume/Resume";
 
 import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
@@ -17,7 +17,7 @@ function App() {
       <div className="sections">
         <Intro />
         <Portfolio />
-        <Skills />
+        <Resume />
 
         <Contact />
       </div>
