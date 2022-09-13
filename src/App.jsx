@@ -18,7 +18,6 @@ function App() {
         <Intro />
         <Portfolio />
         <Resume />
-
         <Contact />
       </div>
     </div>
