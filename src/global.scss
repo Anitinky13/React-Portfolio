@@ -3,7 +3,7 @@ $mainColor: antiquewhite;
 $width: 768px;
 
 @mixin mobile {
-  @media (max-width: #{swidth}) {
+  @media (max-width: #{$width}) {
     @content;
   }
 }

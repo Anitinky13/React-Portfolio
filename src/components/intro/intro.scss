@@ -1,7 +1,11 @@
+@import "../../global.scss";
 .intro {
   background-color: antiquewhite;
   display: flex;
 
+  @include mobile {
+    flex-direction: column;
+  }
   .left {
     flex: 0.5;
     overflow: hidden;
@@ -17,8 +21,19 @@
       display: flex;
       align-items: center;
 
+      @include mobile {
+        height: 80%;
+      }
+
       img {
         height: 90%;
+
+        @include mobile {
+          height: 90%;
+          align-items: center;
+          padding-left: 40px;
+          padding-bottom: 30px;
+        }
       }
     }
   }
@@ -33,6 +48,9 @@
       line-height: 1.5;
       font-style: italic;
 
+      @include mobile {
+        padding: 30px;
+      }
       h1 {
         font-size: 45px;
         margin: 10px 0;
