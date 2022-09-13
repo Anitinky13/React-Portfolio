@@ -11,8 +11,6 @@
   }
 }
 .container {
-  border: 2px black solid;
-
   @include mobile {
     width: 90%;
     height: 100vh;
