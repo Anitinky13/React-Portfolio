@@ -5,6 +5,7 @@ import Resume from "./components/resume/Resume";
 
 import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
+
 import "./app.scss";
 import { useState } from "react";
 // import React, { useState } from "react";

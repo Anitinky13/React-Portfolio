@@ -1,6 +1,8 @@
 import "./contact.scss";
 import { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
+import React from "react";
+
 export default function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState(false);
