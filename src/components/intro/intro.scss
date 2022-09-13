@@ -39,7 +39,7 @@
   }
   .right {
     flex: 0.5;
-
+    overflow: hidden;
     .wrapper {
       align-items: center;
       padding: 50px;
@@ -47,6 +47,7 @@
 
       line-height: 1.5;
       font-style: italic;
+      overflow: hidden;
 
       @include mobile {
         padding: 30px;
@@ -54,16 +55,27 @@
       h1 {
         font-size: 45px;
         margin: 10px 0;
+        overflow: hidden;
       }
       h2 {
         font-size: 35px;
+        overflow: hidden;
       }
       h3 {
         font-size: 30px;
+        overflow: hidden;
 
         span {
           font-size: 30px;
           color: crimson;
+          overflow: hidden;
+        }
+      }
+      h4 {
+        font-size: 30px;
+        overflow: hidden;
+        @include mobile {
+          font-size: 20px;
         }
       }
     }

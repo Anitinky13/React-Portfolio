@@ -11,6 +11,10 @@
   }
 }
 .container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   @include mobile {
     width: 90%;
     height: 100vh;

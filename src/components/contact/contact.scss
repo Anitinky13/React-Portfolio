@@ -24,6 +24,7 @@
 
     h2 {
       font-size: 60px;
+      overflow: hidden;
 
       @include mobile {
         font-size: 40px;

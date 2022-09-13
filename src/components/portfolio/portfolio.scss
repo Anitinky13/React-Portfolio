@@ -33,6 +33,7 @@
       border-radius: 10px;
       cursor: pointer;
       padding: 7px;
+      overflow: hidden;
 
       @include mobile {
         display: none;
