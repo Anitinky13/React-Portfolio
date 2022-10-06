@@ -2,7 +2,7 @@ import "./contact.scss";
 import { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 import React from "react";
-
+import contact from "../../assets/contact.png";
 export default function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState(false);
@@ -19,7 +19,7 @@ export default function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="left">
-        <img src="assets/contact.png" alt="" />
+        <img src={contact} alt="" />
       </div>
       <div className="right">
         <h2>C O N T A C T </h2>

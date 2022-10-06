@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Anitinky13.github.io/react-portfolio",
+  "homepage": "http://Anitinky13.github.io/React-Portfolio",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
@@ -12,6 +12,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "cdbreact": "^1.5.3",
+    "gh-pages": "^3.2.3",
     "ityped": "^1.0.3",
     "mdb-react-ui-kit": "^4.2.0",
     "react": "^18.2.0",
@@ -49,7 +50,6 @@
     ]
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.18.9",
-    "gh-pages": "^4.0.0"
+    "@babel/eslint-parser": "^7.18.9"
   }
 }

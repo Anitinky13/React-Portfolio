@@ -1,4 +1,6 @@
 import "./intro.scss";
+import image2 from "../../assets/image2.jpg";
+// import image2 from "../assets/image2.jpg";
 // import { init } from "ityped";
 // import { useEffect, useRef } from "react";
 
@@ -18,7 +20,7 @@ export default function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imageContainer">
-          <img src="assets/image2.jpg" alt="me" />
+          <img src={image2} alt=""></img>
         </div>
       </div>
       <div className="right">
